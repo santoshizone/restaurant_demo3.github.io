@@ -1,0 +1,718 @@
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+
+
+
+                    /*-- Slider-- */
+
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size:50px;
+  
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators 
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 1s ease;
+}*/
+
+.active {
+  background-color: #717171;
+}
+
+.black{
+      background-color:black;
+      height: 60px;
+      width: 100%;
+
+    }
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3.5s;
+  animation-name: fade;
+  animation-duration: 3.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+.mySlides div
+{
+  margin-top: -100px;
+}
+
+
+
+
+
+
+
+                /*--navbar--*/
+
+nav{
+background: tranparent;
+}
+
+#Navbar1 ul li {
+  margin-left: 30px;
+}
+
+#Navbar1 ul{
+  
+  margin-right: 100px;
+}
+
+#Navbar1 ul li a{
+  color: white;
+  font-size: 20px;
+}
+
+
+
+nav button{
+  background-color:  #c8a97e;
+ 
+}
+
+.food_box span{
+  color: white;
+}
+
+
+
+
+
+.food_box{
+  position:absolute;
+  top: 77%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: 1px solid white;
+  padding-top: 5px;
+  
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: black;
+  opacity: .7;
+  height: 666px;
+}
+
+
+                        /*--about--*/
+
+.about_h1{
+  font-size: 80px;
+  font-family: great vibes,cursive;
+  color: #c8a97e;
+  position: relative;
+}
+
+.about_h2{
+  position: absolute;
+  margin-top: -60px;
+  font-size: 50px;
+}
+
+.about{
+  padding-top: 50px;
+}
+
+.about a:hover{
+  text-decoration: none;
+
+}
+
+
+
+.mySlides img{
+
+  opacity: 1;
+}
+
+
+                    /*--services--*/
+
+
+.services{
+  padding-top: 100px;
+  background:lightgrey;
+}
+
+.services_h1{
+  font-size: 80px;
+  font-family: great vibes,cursive;
+  color: #c8a97e;
+  position: relative;
+}
+
+.services_h2{
+  position: absolute;
+  margin-top: -100px;
+  font-size: 50px;
+}
+
+
+
+.services span{
+  position: absolute;
+  margin-top: -70px;
+  font-size: 60px;
+  margin-left: -240px;
+  font-weight: bold;
+}
+
+
+
+
+                          /*--counter--*/
+
+.count {
+color:#c8a97e;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: verdana;
+ }
+
+                            /*--menu--*/
+
+
+.menu_h1{
+  font-size: 80px;
+  font-family: great vibes,cursive;
+  color: #c8a97e;
+  position: relative;
+}
+
+.menu .span1{
+  position: absolute;
+  margin-top: -70px;
+  font-size: 60px;
+  margin-left: -150px;
+  font-weight: bold;
+
+}
+
+.menu{
+  padding-top: 50px;
+}
+
+.menu_col{
+  border: 1px solid lightgrey;
+  
+}
+
+.menu_col h5{
+  float: left;
+}
+
+.menu_col h6{
+  float: left;
+  text-align: left;
+}
+
+.menu_col button{
+  margin-left: -300px;
+  background-color:#c8a97e; 
+}
+
+.menu .span1{
+  position: absolute;
+  margin-top: -70px;
+  font-size: 60px;
+  margin-left: -150px;
+  font-weight: bold;
+
+}
+
+
+
+
+/*.counter{
+  border: 1px solid red;
+  padding-top: 90px;
+  font-size: 20px;
+}*/
+
+                        /*--chef--*/
+
+.chef_h1{
+  font-size: 80px;
+  font-family: great vibes,cursive;
+  color: #c8a97e;
+  position: relative;
+}
+
+.chef{
+  padding-top: 50px;
+}
+
+.chef i{
+  color: #c8a97e;
+}
+
+
+
+.chef .span1{
+  position: absolute;
+  margin-top: -80px;
+  font-size: 60px;
+  margin-left: -220px;
+  font-weight: bold;
+
+}
+
+
+                        /*--book--*/
+
+
+.book{
+
+  background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/book.jpg) no-repeat center fixed;
+  position: relative;
+  background-size: 100% 100%;
+  height: 500px;
+  width: 100%;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+
+
+}
+
+
+.book_h1{
+
+  font-size: 60px;
+  font-family: great vibes,cursive;
+  color: #c8a97e;
+  position: relative;
+  text-align: center;
+
+
+}
+.book .span1{
+   
+  margin-top: -50px;
+  font-size: 40px;
+  position: absolute;
+  
+  font-weight: bold;
+  text-align: center;
+  margin-left: 50px;
+
+}
+
+.book .row{
+  width: 50%;
+  
+  margin-left: 100px;
+  background: white;
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%,-50%);
+
+
+}
+
+.row1{
+  border: 1px solid green;
+}
+
+.row1 div{
+  display: flex;
+}
+
+
+
+
+.book_btn{
+  background: #c8a97e;
+  padding: 5px;
+  margin-left: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+/*.carousel-wrap {
+  margin: 90px auto;
+  padding: 0 5%;
+  width: 80%;
+  position: relative;
+}
+
+/* fix blank or flashing items on carousel 
+.owl-carousel .item {
+  position: relative;
+  z-index: 100; 
+  -webkit-backface-visibility: hidden; 
+}
+
+/* end fix 
+.owl-nav > div {
+  margin-top: -26px;
+  position: absolute;
+  top: 50%;
+  color: #cdcbcd;
+}
+
+.owl-nav i {
+  font-size: 52px;
+}
+
+.owl-nav .owl-prev {
+  left: -30px;
+}
+
+.owl-nav .owl-next {
+  right: -30px;
+}
+
+
+.owl-carousel img{
+  border-radius: 50%;
+}*/
+
+
+
+
+ .stretch-card>.card {
+     width: 100%;
+     min-width: 100%
+ }
+
+ body {
+     background-color: #f9f9fa
+ }
+
+ .flex {
+     -webkit-box-flex: 1;
+     -ms-flex: 1 1 auto;
+     flex: 1 1 auto
+ }
+
+ @media (max-width:991.98px) {
+     .padding {
+         padding: 1.5rem
+     }
+ }
+
+ @media (max-width:767.98px) {
+     .padding {
+         padding: 1rem
+     }
+ }
+
+ .padding {
+     padding: 3rem
+ }
+
+ .owl-carousel .item {
+     margin: 3px
+ }
+
+ .owl-carousel .item img {
+     display: block;
+     width: 100%;
+     height: auto
+ }
+
+ .owl-carousel .item {
+     margin: 3px
+ }
+
+ .owl-carousel {
+     margin-bottom: 15px;
+     padding-top: 100px;
+ }
+
+
+.carousel img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.blog{
+  padding-top: 50px;
+}
+
+.blog_h1{
+
+  font-size: 80px;
+  font-family: great vibes,cursive;
+  color: #c8a97e;
+  position: relative;
+
+
+}
+.blog .span1{
+   
+  margin-top: -70px;
+  font-size: 50px;
+  position: absolute;
+  font-weight: bold;
+  margin-left: -100px;
+
+}
+
+
+.read {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.read:hover{
+  color: black;
+  text-decoration: none;
+}
+
+
+
+                /*--footer--*/
+
+.footer{
+  background: black;
+  color: white;
+}
+
+.footer_btn{
+  width: 180px;
+  background:  #c8a97e;
+ 
+}
+
+.footer_row{
+  
+  
+  width: 100%;
+text-align: center;
+padding-top: 10px;
+
+
+}
+
+.reservation_btn{
+  margin-left: 150px;
+  background: #c8a97e;
+}
+
+
+.book .form{
+  
+  width:32%;
+  top: 50%;
+  left: 30%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  background: white;
+  padding-bottom: 10px;
+
+
+}
+
+
+
+/*.owl-nav button {
+  position: absolute;
+  top: 50%;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+}
+.owl-nav button.owl-prev {
+  left: 0;
+}
+.owl-nav button.owl-next {
+  right: 0;
+}
+
+.owl-dots {
+  text-align: center;
+  padding-top: 15px;
+}
+.owl-dots button.owl-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  background: #ccc;
+  margin: 0 3px;
+}
+.owl-dots button.owl-dot.active {
+  background-color: #000;
+}
+.owl-dots button.owl-dot:focus {
+  outline: none;
+}
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.38) !important;
+}
+span {
+    font-size: 70px;    
+    position: relative;
+    top: -5px;
+}
+.owl-nav button:focus {
+    outline: none;
+}*/
+
+
+#myBtn2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color:black; /* Set a background color */
+  color: lightblue; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn2:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1100px){
+
+  .food_box{
+    margin-top: 400px;
+    position: relative;
+  }
+  .food_box span{
+    color: black;
+  }
+  .text{
+    top: 40%;
+  }
+.services span{
+  font-size: 40px;
+  margin-left: -150px;
+}
+  
+  .menu_h1{
+    font-size: 60px;
+  }
+
+  .menu_col button{
+    margin-left: -13px;
+  }
+
+  .book{
+    height: 500px;
+  }
+
+  .blog img{
+    width: 350px;
+  }
+
+  .blog .span1{
+    font-size: 40px;
+  }
+
+  .blog img{
+    width: 300px;
+  }
+
+  .book .form{
+    width: 80%;
+    left: 50%;
+  }
+
+  .book .form input{
+    width: 80%;
+  }
+
+  .book{
+    height: 600px;
+  }
+
+  .book_h1{
+    font-size: 40px;
+  }
+
+ .book .form .span1{
+    font-size: 27px;
+    margin-top: -35px;
+    margin-left: 10px;
+  }
+
+}
